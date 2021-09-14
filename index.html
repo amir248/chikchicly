@@ -42,7 +42,18 @@
         <h1>hi</h1>
         <div id="app-5">
   <p>{{ message }}</p>
-  <button v-on:click="reverseMessage">Перевернуть сообщение</button>
+      <button v-on:click="reverseMessage">Перевернуть сообщение</button>
+    </div>
+    <div id="app-4">
+      <ol>
+        <li v-for="todo in todos">
+          {{ todo.text }}
+        </li>
+      </ol>
+    </div>
+    <div id="app-6">
+  <p>{{ message }}</p>
+  <input v-model="message">
 </div>
       </article>
       </main>
