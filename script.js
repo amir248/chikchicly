@@ -9,7 +9,7 @@ var app4 = new Vue({
   }
 }),
 
-// var app6 = new Vue({
+// var app6https://amir248.github.io/chikchicly/ = new Vue({
 //   el: '#app-6',
 //   data: {
 //     messages: 'Привет, Vue!'
