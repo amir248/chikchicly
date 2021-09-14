@@ -9,6 +9,7 @@ var app5 = new Vue({
     }
   }
 }),
+
 var app4 = new Vue({
   el: '#app-4',
   data: {
@@ -19,6 +20,7 @@ var app4 = new Vue({
     ]
   }
 }),
+
 var app6 = new Vue({
   el: '#app-6',
   data: {
