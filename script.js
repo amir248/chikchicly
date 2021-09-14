@@ -22,6 +22,6 @@ var app4 = new Vue({
 var app6 = new Vue({
   el: '#app-6',
   data: {
-    message2: 'Привет, Vue!'
+    messages: 'Привет, Vue!'
   }
 })
