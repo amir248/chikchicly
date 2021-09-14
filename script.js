@@ -8,7 +8,7 @@ var app5 = new Vue({
       this.message = this.message.split('').reverse().join('')
     }
   }
-})
+}),
 var app4 = new Vue({
   el: '#app-4',
   data: {
@@ -18,7 +18,7 @@ var app4 = new Vue({
       { text: 'Создать что-нибудь классное' }
     ]
   }
-})
+}),
 var app6 = new Vue({
   el: '#app-6',
   data: {
