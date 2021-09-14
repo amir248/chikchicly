@@ -24,7 +24,7 @@ var app6 = new Vue({
   data: {
     messages: 'Привет, Vue!'
   }
-})
+}),
 Vue.component('todo-item', {
   props: ['todo'],
   template: '<li>{{ todo.text }}</li>'
