@@ -14,5 +14,6 @@ alert("Привет Уважаемый:"+'_'+ localStorage.getItem('name') );
   console.log('getItemOfnull');
 }
 let nameUser= localStorage.getItem('name');
+document.querySelector('#nameUser').innerHTML= nameUser;
 
 document.querySelector('#nameUser').innerHTML= `${nameUser}`;
