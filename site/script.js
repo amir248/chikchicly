@@ -11,7 +11,10 @@ document.querySelector('#go').addEventListener('click',()=>{
 });
 if(localStorage.getItem('name')!=null){
 alert("Привет Уважаемый:"+'_'+ localStorage.getItem('name') );
-document.querySelector(".priv").style.cssText="display:flex;";
+document.querySelector(".priv").style.cssText=`
+flex-direction:column;
+display:flex;
+`;
 
 }else{
 
