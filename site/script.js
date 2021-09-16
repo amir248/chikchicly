@@ -16,4 +16,6 @@ alert("Привет Уважаемый:"+'_'+ localStorage.getItem('name') );
 let nanePromt=promt('Пожалуйста, будьте добры представьтесь.', '');
 }
 let nameUser= localStorage.getItem('name');
-document.querySelectorAll([#nameUser]).innerHTML=`${localStorage.getItem('name')}`;
+document.querySelector("#nameUser").innerHTML=`${localStorage.getItem('name')}`;
+document.querySelector("#nameUser2").innerHTML=`${localStorage.getItem('name')}`;
+document.querySelector("#nameUser3").innerHTML=`${localStorage.getItem('name')}`;
