@@ -17,11 +17,9 @@ display:flex;
 background:rgba(0,255,0,0.3);
 max-width:100%;
 `;
-
 }else{
-
+console.log("prompt");
 // let nonePromt=prompt('Пожалуйста, будьте добры представьтесь.', ' ');
-
 }
 let nameUser= localStorage.getItem('name');
 document.querySelector("#nameUser").innerHTML=`${localStorage.getItem('name')}`;
