@@ -12,8 +12,10 @@ document.querySelector('#go').addEventListener('click',()=>{
 if(localStorage.getItem('name')!=null){
 alert("Привет Уважаемый:"+'_'+ localStorage.getItem('name') );
 }else{
-  console.log('getItemOfnull'+"__"+ nonePromt);
+
 let nonePromt=promt('Пожалуйста, будьте добры представьтесь.', ' ');
+console.log('getItemOfnull'+"__"+ nonePromt);
+
 }
 let nameUser= localStorage.getItem('name');
 document.querySelector("#nameUser").innerHTML=`${localStorage.getItem('name')}`;
