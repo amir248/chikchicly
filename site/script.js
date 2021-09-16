@@ -13,7 +13,7 @@ if(localStorage.getItem('name')!=null){
 alert("Привет Уважаемый:"+'_'+ localStorage.getItem('name') );
 }else{
   console.log('getItemOfnull');
-let nanePromt=promt('Пожалуйста, будьте добра представьтесь.', [ ]);
+let nanePromt=promt('Пожалуйста, будьте добры представьтесь.', '');
 }
 let nameUser= localStorage.getItem('name');
 document.querySelectorAll("[#nameUser]").innerHTML=`${localStorage.getItem('name')}`;
