@@ -17,4 +17,4 @@ let nanePromt=promt('Пожалуйста, будьте добра предст�
 }
 let nameUser= localStorage.getItem('name');
 // document.querySelector('#nameUser').innerHTML=`${localStorage.getItem('name')}`;
-document.querySelectorAll("#nameUser").innerHTML=`${localStorage.getItem('name')}`;
+document.querySelector("#nameUser").innerHTML=`${localStorage.getItem('name')}`;
