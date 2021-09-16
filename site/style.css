@@ -36,6 +36,13 @@ h1{
   color:white;
   text-shadow:1px 1px 1px black;
 }
+h2{
+  width:100%;
+  text-align: center;
+  background:yellow;
+  color:white;
+  text-shadow: 1px 1px 1px black;
+}
 footer{
   display:flex;
   justify-content: center;
