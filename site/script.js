@@ -15,6 +15,7 @@ document.querySelector(".priv").style.cssText=`
 flex-direction:column;
 display:flex;
 background:green;
+max-width:100%;
 `;
 
 }else{
