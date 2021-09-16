@@ -8,4 +8,4 @@ document.querySelector('#go').addEventListener('click',()=>{
   localStorage.setItem('name', app6.message);
   console.log('clickButton');
 });
-alert( localStorage.getItem('name') );
+alert("Привет Уважаемый:" localStorage.getItem('name') );
