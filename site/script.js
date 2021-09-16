@@ -10,3 +10,4 @@ document.querySelector('#go').addEventListener('click',()=>{
 });
 alert("Привет Уважаемый:" localStorage.getItem('name') );
 let nameUser= localStorage.getItem('name');
+document.querySelector('#nameUser').innerHTML=localStorage.getItem('name');
