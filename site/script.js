@@ -9,3 +9,4 @@ document.querySelector('#go').addEventListener('click',()=>{
   console.log('clickButton');
 });
 alert("Привет Уважаемый:" localStorage.getItem('name') );
+let nameUser= localStorage.getItem('name');
