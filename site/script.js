@@ -7,4 +7,5 @@ var app6 = new Vue({
 document.querySelector('#go').addEventListener('click',()=>{
   localStorage.setItem('name',message);
   console.log('clickButton');
-})
+});
+alert( localStorage.getItem('name') );
