@@ -5,6 +5,6 @@ var app6 = new Vue({
   }
 })
 document.querySelector('#go').addEventListener('click',()=>{
-  localStorage.name= app6.message;
+  localStorage.name= message;
   console.log('clickButton');
 })
