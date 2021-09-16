@@ -4,3 +4,6 @@ var app6 = new Vue({
     message: ' ...'
   }
 })
+document.querySelector('#go').addEventListener('click',()=>{
+  console.log('clickButton');
+})
