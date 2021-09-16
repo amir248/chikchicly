@@ -40,8 +40,8 @@ h2{
   width:100%;
   text-align: center;
   background:yellow;
-  color:white;
-  text-shadow: 1px 1px 1px black;
+  /* color:white;
+  text-shadow: 1px 1px 1px black; */
 }
 footer{
   display:flex;
