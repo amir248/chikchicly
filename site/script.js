@@ -8,7 +8,7 @@ document.querySelector('#go').addEventListener('click',()=>{
   localStorage.setItem('name', app6.message);
   console.log('clickButton');
 });
-if(locanStorage.getItem('name')!==null){
+if(localStorage.getItem('name')!=null){
 alert("Привет Уважаемый:"+'_'+ localStorage.getItem('name') );
 }else{
   console.log(getItemOfnull);
