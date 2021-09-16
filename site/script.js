@@ -14,7 +14,7 @@ alert("Привет Уважаемый:"+'_'+ localStorage.getItem('name') );
 document.querySelector(".priv").style.cssText=`
 flex-direction:column;
 display:flex;
-background:green;
+background:rgba(0,255,0,0.3);
 max-width:100%;
 `;
 
