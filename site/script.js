@@ -13,8 +13,7 @@ if(localStorage.getItem('name')!=null){
 alert("Привет Уважаемый:"+'_'+ localStorage.getItem('name') );
 }else{
 
-let nonePromt=prompt('Пожалуйста, будьте добры представьтесь.', ' ');
-console.log('getItemOfnull'+"__"+ `${nonePromt}`);
+// let nonePromt=prompt('Пожалуйста, будьте добры представьтесь.', ' ');
 
 }
 let nameUser= localStorage.getItem('name');
