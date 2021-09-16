@@ -14,7 +14,7 @@ alert("Привет Уважаемый:"+'_'+ localStorage.getItem('name') );
 }else{
 
 let nonePromt=promt('Пожалуйста, будьте добры представьтесь.', newUser);
-console.log('getItemOfnull'+"__"+ nonePromt);
+console.log('getItemOfnull'+"__"+ ${nonePromt});
 
 }
 let nameUser= localStorage.getItem('name');
