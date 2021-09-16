@@ -15,5 +15,3 @@ alert("Привет Уважаемый:"+'_'+ localStorage.getItem('name') );
 }
 let nameUser= localStorage.getItem('name');
 document.querySelector('#nameUser').innerHTML= nameUser;
-
-document.querySelector('#nameUser').innerHTML= `${nameUser}`;
