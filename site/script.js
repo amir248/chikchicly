@@ -15,7 +15,7 @@ if(localStorage.getItem('name')!=null){
     }else if(window.location.hash=='#commercial-offer'){
       console.log("ok location.hash(commercial-offer)");
     }
-  }else if{
+  }else{
     alert("Привет Уважаемый:"+'_'+ localStorage.getItem('name') );
 
 document.querySelector(".priv").style.cssText=`
@@ -24,10 +24,10 @@ display:flex;
 background:rgba(0,255,0,0.3);
 max-width:100%;
 `;
-}else{
+}
 console.log("prompt");
 // let nonePromt=prompt('Пожалуйста, будьте добры представьтесь.', ' ');
-}
+
 let nameUser= localStorage.getItem('name');
 document.querySelector("#nameUser").innerHTML=`${localStorage.getItem('name')}`;
 document.querySelector("#nameUser2").innerHTML=`${localStorage.getItem('name')}`;
