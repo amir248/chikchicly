@@ -13,9 +13,8 @@ if(localStorage.getItem('name')!=null){
   if(window.location.hash=='#hero-webMaster'){
     console.log("ok location.hash(hero-webMaster)");
   }else{
-    breack;
+    alert("Привет Уважаемый:"+'_'+ localStorage.getItem('name') );
   }
-alert("Привет Уважаемый:"+'_'+ localStorage.getItem('name') );
 document.querySelector(".priv").style.cssText=`
 flex-direction:column;
 display:flex;
