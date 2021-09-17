@@ -10,6 +10,11 @@ document.querySelector('#go').addEventListener('click',()=>{
   location.reload();
 });
 if(localStorage.getItem('name')!=null){
+  if(window.location.hash='#hero-webMaster'){
+    console.log("ok location.hash(hero-webMaster)");
+  }else{
+    breack;
+  }
 alert("Привет Уважаемый:"+'_'+ localStorage.getItem('name') );
 document.querySelector(".priv").style.cssText=`
 flex-direction:column;
@@ -17,7 +22,7 @@ display:flex;
 background:rgba(0,255,0,0.3);
 max-width:100%;
 `;
-}else if(window.location.hash=='#hero-webMaster'){
+}else if(window.location.hash='#hero-webMaster'){
   console.log("ok location.hash(hero-webMaster)");
 }else{
 console.log("prompt");
