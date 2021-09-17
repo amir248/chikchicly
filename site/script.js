@@ -15,10 +15,9 @@ if(localStorage.getItem('name')!=null){
     }else if(window.location.hash=='#commercial-offer'){
       console.log("ok location.hash(commercial-offer)");
     }
-
-  }else{
+  }else if{
     alert("Привет Уважаемый:"+'_'+ localStorage.getItem('name') );
-  }
+
 document.querySelector(".priv").style.cssText=`
 flex-direction:column;
 display:flex;
