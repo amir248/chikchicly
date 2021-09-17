@@ -23,7 +23,7 @@ if(localStorage.getItem('name')!=null){
       `;
     }
   }else{
-    alert("Привет Уважаемый:"+'_'+ localStorage.getItem('name') );
+    promt("Привет Уважаемый:"+'_'+ localStorage.getItem('name'),' ' );
   }
 
 
