@@ -24,7 +24,7 @@ if(localStorage.getItem('name')!=null){
       `;
     }
   }else{
-    promt("Привет Уважаемый:"+'_'+ localStorage.getItem('name'),' ' );
+    prompt("Привет Уважаемый:"+'_'+ localStorage.getItem('name'),' ' );
   }
 
 
