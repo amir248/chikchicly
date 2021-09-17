@@ -14,17 +14,19 @@ if(localStorage.getItem('name')!=null){
       console.log("ok location.hash(hero-webMaster)");
     }else if(window.location.hash=='#commercial-offer'){
       console.log("ok location.hash(commercial-offer)");
+    }else{
+      document.querySelector(".priv").style.cssText=`
+      flex-direction:column;
+      display:flex;
+      background:rgba(0,255,0,0.3);
+      max-width:100%;
+      `;
     }
   }else{
     alert("Привет Уважаемый:"+'_'+ localStorage.getItem('name') );
+  }
 
-document.querySelector(".priv").style.cssText=`
-flex-direction:column;
-display:flex;
-background:rgba(0,255,0,0.3);
-max-width:100%;
-`;
-}
+
 console.log("prompt");
 // let nonePromt=prompt('Пожалуйста, будьте добры представьтесь.', ' ');
 
