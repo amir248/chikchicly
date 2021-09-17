@@ -10,7 +10,7 @@ document.querySelector('#go').addEventListener('click',()=>{
   location.reload();
 });
 if(localStorage.getItem('name')!=null){
-  if(window.location.hash='#hero-webMaster'){
+  if(window.location.hash=='#hero-webMaster'){
     console.log("ok location.hash(hero-webMaster)");
   }else{
     breack;
@@ -22,8 +22,6 @@ display:flex;
 background:rgba(0,255,0,0.3);
 max-width:100%;
 `;
-}else if(window.location.hash='#hero-webMaster'){
-  console.log("ok location.hash(hero-webMaster)");
 }else{
 console.log("prompt");
 // let nonePromt=prompt('Пожалуйста, будьте добры представьтесь.', ' ');
