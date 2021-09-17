@@ -17,7 +17,7 @@ display:flex;
 background:rgba(0,255,0,0.3);
 max-width:100%;
 `;
-}else if(window.location.hash==#hero-webMaster){
+}else if(window.location.hash=='#hero-webMaster'){
   console.log("ok location.hash(hero-webMaster)");
 }else{
 console.log("prompt");
