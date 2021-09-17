@@ -13,7 +13,8 @@ if(localStorage.getItem('name')!=null){
   if(window.location.hash=='#hero-webMaster'){
     console.log("ok location.hash(hero-webMaster)");
   }else if(window.location.hash=='#commercial-offer'){
-    console.log("ok location.hash(commercial-offer)");{
+    console.log("ok location.hash(commercial-offer)");
+  }
 
   }else{
     alert("Привет Уважаемый:"+'_'+ localStorage.getItem('name') );
