@@ -25,12 +25,9 @@ if(localStorage.getItem('name')!=null){
     }
   }else{
     // prompt("Привет Уважаемый:"+'_'+ localStorage.getItem('name'),' ' );
-  }
-
-
-console.log("prompt");
+  console.log("prompt");
 // let nonePromt=prompt('Пожалуйста, будьте добры представьтесь.', ' ');
-
+}
 let nameUser= localStorage.getItem('name');
 document.querySelector("#nameUser").innerHTML=`${localStorage.getItem('name')}`;
 document.querySelector("#nameUser2").innerHTML=`${localStorage.getItem('name')}`;
