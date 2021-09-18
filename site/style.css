@@ -66,3 +66,13 @@ img{
 .priv{
   display:none;
 }
+.imagesJan{
+  float:right;
+  max-width:100%;
+  width:470px;
+}
+@media(max-width:600px){
+  .imagesJan{
+    width:100%;
+  }
+}
